@@ -1,0 +1,20 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "SupportSync Engine API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "REPLACE_ME"
+    }
+  ],
+  "paths": {
+    "/api/tickets": {
+      "get": {
+        "summary": "Get all tickets",
+        "responses": { "200": { "description": "Success" } }
+      }
+    }
+  }
+}
